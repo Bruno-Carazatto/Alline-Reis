@@ -106,9 +106,9 @@ a {
     position: sticky;
     top: 0;
     z-index: 1030;
-    background: rgba(143, 191, 163, 0.92);
+    background: #0e5843;
     backdrop-filter: blur(8px);
-    box-shadow: 0 6px 20px rgba(111, 159, 132, 0.12);
+    box-shadow: 0 6px 20px rgba(14, 88, 67, 0.25);
 }
 
 .navbar {
@@ -133,13 +133,13 @@ a {
 }
 
 .navbar .nav-link {
-    color: rgba(255, 255, 255, 0.92);
+    color: #ffffff;
     font-weight: 600;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
-    color: #fff5f8;
+    color: #f6d7e1;
 }
 
 .btn-brand {
