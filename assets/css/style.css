@@ -57,19 +57,19 @@ a {
 }
 
 .section-light {
-    background: var(--bg-light);
+    background: #F4EFEA;
 }
 
 .section-soft {
-    background: var(--bg-soft);
+    background: #F4EFEA;
 }
 
 .section-olive {
-    background: linear-gradient(135deg, var(--primary-light), var(--bg-pastel));
+    background: #F4EFEA;
 }
 
 .section-contact {
-    background: linear-gradient(135deg, #dff1e5, #f6edf2);
+    background: #F4EFEA;
 }
 
 .section-tag {
@@ -106,9 +106,9 @@ a {
     position: sticky;
     top: 0;
     z-index: 1030;
-    background: #0e5843;
+    background: #1F4D3E;
     backdrop-filter: blur(8px);
-    box-shadow: 0 6px 20px rgba(14, 88, 67, 0.25);
+    box-shadow: 0 6px 20px rgba(31, 77, 62, 0.35);
 }
 
 .navbar {
@@ -161,14 +161,8 @@ a {
 
 .hero-section {
     padding: 90px 0 70px;
-    background:
-        linear-gradient(rgba(143, 191, 163, 0.82), rgba(111, 159, 132, 0.72)),
-        radial-gradient(circle at top right, rgba(255,255,255,0.16), transparent 30%),
-        linear-gradient(135deg, #dff1e5, #f3dbe4);
-    color: var(--white);
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
+    background: #F4EFEA;
+    color: var(--text);
 }
 
 .hero-badge {
